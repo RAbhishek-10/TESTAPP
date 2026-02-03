@@ -1,0 +1,69 @@
+# --- Flutter/Dart ---
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+# Generated code (if using build_runner)
+*.g.dart
+*.freezed.dart
+
+# --- Android ---
+android/app/build/
+android/.gradle/
+android/local.properties
+android/key.properties
+android/GeneratedPluginRegistrant.java
+.cxx/
+*.keystore
+# Highly recommended: Ignore google-services.json if you don't want to expose Firebase keys
+google-services.json
+
+# --- iOS/macOS ---
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+macos/Flutter/ephemeral/
+**/Pods/
+**/.symlinks/
+*.pbxuser
+*.mode1v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+Podfile.lock
+
+# --- Web ---
+.last_build_id
+# Only ignore if you don't want to commit web build artifacts
+# build/web/
+
+# --- Desktop (Windows/Linux) ---
+windows/flutter/ephemeral/
+windows/CMakeLists.txt.user
+linux/flutter/ephemeral/
+linux/CMakeLists.txt.user
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.history/
+# VS Code specifics
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# --- Sensitive Info & Environment ---
+.env
+.env.*
+*.secret
+credentials.json
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
